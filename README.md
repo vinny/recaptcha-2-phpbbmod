@@ -3,7 +3,7 @@ Install
  * Download [here](https://github.com/vinny/recaptcha-2-phpbbmod/archive/master.zip)
  * Copy the entire contents to root of your phpBB installation
  * Run `install_recaptcha_new.php`
- * Got to ACP and set up reCaptcha 2 keys
+ * Go to ACP and set up reCaptcha 2 keys
  * enjoy!
 
 Based on
