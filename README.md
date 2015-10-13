@@ -15,4 +15,4 @@ This MOD was based on using the following code:
 Donate
 -------
  If you like this mod and want to show some appreciation, you can make a donation.
-[![Build Status](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=1IAXsEG1_LYeQIdoIXv8bFdxD-_0N0-N2QLHVS3QiorvsY-HCUcJnVJK1Mm&dispatch=5885d80a13c0db1f8e263663d3faee8d64ad11bbf4d2a5a1a0d303a50933f9b2)
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JWB6R5RMVQTT8)
