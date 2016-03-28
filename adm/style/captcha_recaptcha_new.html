@@ -1,6 +1,10 @@
 <!-- IF S_RECAPTCHA_NEW_AVAILABLE -->
 	<dl>
 	<dd>
+	<noscript>
+		<div>{L_RECAPTCHA_NOSCRIPT}</div>
+	</noscript>
+
 		<script src="https://www.google.com/recaptcha/api.js?hl={L_RECAPTCHA_NEW_LANG}"></script>
 		<div class="g-recaptcha" data-sitekey="{RECAPTCHA_NEW_PUBKEY}"></div>
 	</dd>

@@ -34,19 +34,19 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	// reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
-	'RECAPTCHA_NEW_LANG'			=> 'en',
-	'RECAPTCHA_NEW_NOT_AVAILABLE'	=> 'In order to use recaptcha, you must create an account on <a href="http://www.google.com/recaptcha/intro/index.html">www.google.com/recaptcha</a>.',
-	'CAPTCHA_RECAPTCHA_NEW'			=> 'recaptcha 2',
+	'RECAPTCHA_NEW_LANG'			=> 'en', // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
+	'RECAPTCHA_NEW_NOT_AVAILABLE'	=> 'In order to use reCAPTCHA v2, you must create an account on <a href="http://www.google.com/recaptcha/intro/index.html">www.google.com/recaptcha</a>.',
+	'CAPTCHA_RECAPTCHA_NEW'			=> 'reCAPTCHA v2',
 
-	'RECAPTCHA_INCORRECT'			=> 'The visual confirmation code you submitted was incorrect',
+	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
+	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public recaptcha site key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public recaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Secret recaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Use this for communication between your site and Google. Be sure to keep it a secret. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Public reCAPTCHA v2 key',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCAPTCHA v2 key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Private reCAPTCHA v2 key',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_NEW_EXPLAIN'			=> 'In an effort to prevent automatic submissions, we require that you complete the reCAPTCHA then submit the form.',
+	'RECAPTCHA_NEW_EXPLAIN'			=> 'In an effort to prevent automatic submissions, we require that you complete the following challenge.',
 ));
 
 ?>

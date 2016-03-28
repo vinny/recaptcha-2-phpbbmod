@@ -12,6 +12,10 @@
 	<dl>
 	<dt><label>{L_CONFIRM_CODE}</label>:<br /><span>{L_RECAPTCHA_NEW_EXPLAIN}</span></dt>
 	<dd>
+	<noscript>
+		<div>{L_RECAPTCHA_NOSCRIPT}</div>
+	</noscript>
+
 		<script src="https://www.google.com/recaptcha/api.js?hl={L_RECAPTCHA_NEW_LANG}"></script>
 		<div class="g-recaptcha" data-sitekey="{RECAPTCHA_NEW_PUBKEY}"></div>
 	</dd>
