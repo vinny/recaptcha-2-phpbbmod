@@ -1,16 +1,33 @@
-Install
+How to Install
 -------
- * Download [here](https://github.com/vinny/recaptcha-2-phpbbmod/archive/master.zip)
+ * Download the [latest release](https://github.com/vinny/recaptcha-2-phpbbmod/releases)
  * Copy the entire contents to root of your phpBB installation
  * Run `install_recaptcha_new.php`
- * Go to ACP and set up reCAPTCHA v2 keys
+ * Go to ACP -> General tab -> Spambot Countermeasures
+ * Click the "Installed plugins" dropdown and select reCAPTCHA v2.
+ * Click the "Configure" button to see the module's ACP page and set up reCAPTCHA v2 keys.
+ * After configuring the reCAPTCHA v2, re-select reCAPTCHA v2 from the dropdown. It shold not be grayed out any more.
+ * Click "Submit".
+ * Congratulations, you’re done.
  * enjoy!
+
+
+Screenshot
+-------
+[![reCAPTCHA v2](http://i.imgur.com/okFljKV.png)](http://i.imgur.com/okFljKV.png)
+
+
+License
+-------
+[GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
+
 
 Based on
 -------
 This MOD was based on using the following code:
 * https://github.com/gothick/phpbb-ext-recaptcha2
 * https://www.phpbb.com/community/viewtopic.php?p=14209461#p14209461
+
 
 Donate
 -------
