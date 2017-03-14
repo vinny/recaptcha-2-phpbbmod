@@ -1,3 +1,8 @@
+Requirement
+-------
+5.3.0+
+
+
 How to Install
 -------
  * Download the [latest release](https://github.com/vinny/recaptcha-2-phpbbmod/releases)
