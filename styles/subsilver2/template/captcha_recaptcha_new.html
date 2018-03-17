@@ -1,0 +1,19 @@
+<!-- IF S_TYPE == 1 -->
+<tr>
+	<th colspan="2" valign="middle">{L_CONFIRMATION}</th>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_CONFIRM_CODE}:</b><br /><span class="gensmall">{L_RECAPTCHA_NEW_EXPLAIN}</span></td>
+	<td class="row2">
+		<noscript>
+			<div>{L_RECAPTCHA_NOSCRIPT}</div>
+		</noscript>
+
+		<script src="https://www.google.com/recaptcha/api.js?hl={L_RECAPTCHA_NEW_LANG}"></script>
+		<div class="g-recaptcha" data-sitekey="{RECAPTCHA_NEW_PUBKEY}"></div>
+	</td>
+</tr>
+
+<!-- ELSE -->
+{L_RECAPTCHA_NOT_AVAILABLE}
+<!-- ENDIF -->
